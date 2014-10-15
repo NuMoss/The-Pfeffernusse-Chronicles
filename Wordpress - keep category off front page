@@ -1,3 +1,6 @@
+#this file should be called func_exclude_category.php
+#comments are important to be able to remember what things do when you use good nameing practices
+
 function exclude_category($query) {
 if ( $query->is_home() ) {
 $query->set('cat', '-XX');
